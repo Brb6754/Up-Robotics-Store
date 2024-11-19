@@ -32,7 +32,7 @@ function vaciarCarro(){
 function comprarCarro(){
     const mensaje1  = obtenerDatosCarrito(articulosCarrito)
     const mensaje  = mensaje1
-    const enlaceWhatsApp = `https://api.whatsapp.com/send?phone=+526181523150&text=${encodeURIComponent(mensaje)}`;
+    const enlaceWhatsApp = `https://api.whatsapp.com/send?phone=+526188390652&text=${encodeURIComponent(mensaje)}`;
     window.open(enlaceWhatsApp, '_blank')
 }
 
